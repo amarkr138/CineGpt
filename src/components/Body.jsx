@@ -5,7 +5,7 @@ import { RouterProvider } from 'react-router-dom';
 import NowPlaying from './NowPlaying';
 import AppLayout from './AppLayout';
 import TopRated from './TopRated';
-import UpComing from './Upcoming';
+import UpComing from './UpComing';
 
 const Body = () => {
  const appRouter = createBrowserRouter([
