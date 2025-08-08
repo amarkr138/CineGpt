@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.transparent-scrollbar::-webkit-scrollbar {
+  height: 6px; /* or width if vertical */
+}
+
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* removes scrollbar background */
+}
+
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3); /* thumb still visible */
+  border-radius: 9999px;
+}
